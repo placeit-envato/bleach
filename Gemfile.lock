@@ -17,6 +17,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  abstract_command
+  abstract_command (= 0.0.6)
   github-linguist
-  isna
+  isna (= 0.0.4)
