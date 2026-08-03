@@ -9,3 +9,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    # Pinned + vendored single-owner gems (RubyGems profile 2325, former staff member).
+    # Do not let Dependabot bump these back to an upstream-resolved version — the
+    # upstream owner can still publish/rewrite these gems on rubygems.org.
+    ignore:
+      - dependency-name: "abstract_command"
+      - dependency-name: "isna"
